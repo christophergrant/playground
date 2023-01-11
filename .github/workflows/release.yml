@@ -1,4 +1,5 @@
 ---
+# test
 name: publish
 
 on: [release]
