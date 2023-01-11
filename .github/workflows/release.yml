@@ -1,8 +1,9 @@
 ---
 name: publish
 
-on: [release]
-
+on:
+  release:
+    types: [published]
 jobs:
   build-and-publish-artifacts:
     runs-on: ubuntu-latest
